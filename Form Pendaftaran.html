@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,40 +8,31 @@
 <body>
     <h1>Form Registrasi Akun</h1>
 
-    <table>
-    <tr>
-    <td> <h2> Nama Lengkap</h2> </td> 
-        <td> <textarea name="Masukkan nama lengkap" id= "name" ></textarea> </td>
-    </tr>
-    </table>
+    <form action="#" method="post">
+        
+        <label for="nama-lengkap">Nama Lengkap</label>
+        <input type="text" id="nama-lengkap" name="nama-lengkap" placeholder="Masukkan nama lengkap" required>
+        <br>
 
-    <table>
-    <tr>
-    <td> <h2>Email</h2>  </td> 
-    <td> <textarea email="Masukkan email" id= "email" ></textarea> </td> 
-    </tr>
-    </table>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+        <br>
 
-    <table>
-    <tr>
-    <td> <h2>Username</h2> </td> 
-    <td> <textarea username="Masukkan username" id= "username" ></textarea> </td> 
-    </tr>
-    </table>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+        <br>
 
-    <table>
-    <tr>
-    <td> <h2>Password</h2>  
-    <td> <textarea password="Masukkan password" id= "password" ></textarea> </td>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+        <br>
 
-    <table>
-    <tr>
-    <td> <h2>Konfirmasi Password</h2>  
-    <td> <textarea konfirmasipass="Masukkan kembali password" id= "konfirmasipass" ></textarea> </td>
-    </tr>
-    </table>
+        <label for="konfirmasi-password">Konfirmasi Password</label>
+        <input type="password" id="konfirmasi-password" name="konfirmasi-password" placeholder="Masukkan kembali password" required>
+        <br>
 
-    <h2>Daftar</h2> <textarea daftar="pencet daftar" id= "daftar" ></textarea>
+        <button style="background-color:green; color:white" type="submit">Daftar</button>
+        <br>
 
+    </form>
 </body>
 </html>
